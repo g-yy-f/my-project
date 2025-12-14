@@ -1,0 +1,120 @@
+WorkQueue 线程池项目文档
+
+1. 项目概述
+WorkQueue 是一个基于C++17的轻量级线程池实现，通过预创建线程并复用线程资源，有效解决了多线程编程中频繁创建和销毁线程带来的性能开销问题。项目采用现代C++特性，提供类型安全的异步任务提交接口，支持多种同步策略以适应不同并发场景。
+
+2. 核心文件说明
+
+2.1 头文件
+include/lthread.h- 线程基类
+include/workqueue.h- 工作队列主类
+
+2.2 实现文件
+src/core/lthread.cpp- 线程基类实现
+src/core/workqueue.cpp- 工作队列实现
+src/util/spinmutex.hpp- 自旋锁实现
+src/core/main.cpp- 示例程序:
+
+#include "workqueue.h"
+#include <iostream>
+#include <vector>
+#include <chrono>
+
+using namespace lmc;
+using namespace std;
+
+int main() {
+    cout << "WorkQueue 示例程序启动" << endl;
+
+    // 测试不同互斥策略
+    WorkQueue noneQueue(MutexType::None);
+    WorkQueue spinQueue(MutexType::Spin);
+    WorkQueue mutexQueue(MutexType::Mutex);
+
+    // 基础功能测试
+    auto result = mutexQueue.addTask([](int a, int b) {
+        return a + b;
+    }, 10, 20);
+
+    cout << "10 + 20 = " << result.get() << endl;
+
+    // 批量任务测试
+    vector<future<int>> results;
+    for (int i = 0; i < 10; ++i) {
+        results.push_back(mutexQueue.addTask([](int x) {
+            return x * x;
+        }, i));
+    }
+
+    for (auto& fut : results) {
+        cout << "平方结果: " << fut.get() << endl;
+    }
+
+    // 异常处理测试
+    try {
+        auto exceptionResult = mutexQueue.addTask([]() {
+            throw runtime_error("测试异常");
+            return 0;
+        });
+        exceptionResult.get();
+    } catch (const exception& e) {
+        cout << "捕获到异常: " << e.what() << endl;
+    }
+
+    cout << "示例程序执行完成" << endl;
+    return 0;
+}
+
+2.3 构建配置
+CMakeLists.txt
+
+3. 构建与运行
+
+3.1 构建命令
+mkdir build
+cd build
+cmake ..
+cmake --build .
+
+3.2 运行程序
+./bin/my-project
+
+3.3 输出示例
+WorkQueue 示例程序启动
+10 + 20 = 30
+平方结果: 0
+平方结果: 1
+平方结果: 4
+平方结果: 9
+平方结果: 16
+平方结果: 25
+平方结果: 36
+平方结果: 49
+平方结果: 64
+平方结果: 81
+捕获到异常: 测试异常
+示例程序执行完成
+
+4. 核心设计说明
+
+4.1 线程池架构
+Thread基类：封装线程生命周期管理，提供start/stop/join接口
+WorkQueue类：继承Thread，实现任务队列管理和任务调度
+SMutex封装：提供可切换的互斥策略（无锁/自旋锁/互斥锁）
+
+4.2 任务提交机制
+使用std::packaged_task包装可调用对象
+通过std::future返回任务结果
+支持任意参数类型和返回值类型
+
+4.3 同步策略
+无锁模式：适用于单生产者-单消费者场景
+自旋锁模式：适合短临界区、高频率争用场景
+互斥锁模式：通用并发场景，线程会阻塞等待
+
+5. 扩展建议
+线程池扩展：支持多线程消费任务队列
+优先级队列：添加任务优先级支持
+定时任务：支持延迟执行和定时任务
+任务取消：支持取消未执行的任务
+性能监控：添加任务执行时间统计和性能指标
