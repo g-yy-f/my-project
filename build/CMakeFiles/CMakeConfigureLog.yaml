@@ -1,0 +1,1009 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/"
+    found: "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Program Files\\yy\\Scripts\\"
+        - "D:\\Program Files\\yy\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Program Files\\yy\\Git\\cmd"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Programme\\Cmake\\bin"
+        - "C:\\Users\\gyf\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Program Files\\yy\\Microsoft VS Code\\bin"
+        - "D:\\msys64\\ucrt64\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      适用于 .NET Framework MSBuild 版本 18.1.1-preview-25556-03+4e139ce80
+      生成启动时间为 2025/12/13 23:17:33。
+      
+      节点 1 上的项目“D:\\my-project\\build\\CMakeFiles\\4.2.1\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+        正在创建目录“Debug\\CompilerIdC.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        正在对“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”执行 Touch 任务。
+      ClCompile:
+        D:\\VS production\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        D:\\VS production\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\my-project\\build\\CMakeFiles\\4.2.1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=D:\\VS production\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“D:\\my-project\\build\\CMakeFiles\\4.2.1\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:01.64
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/my-project/build/CMakeFiles/4.2.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "D:/VS production/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "D:/Program Files/yy/Scripts/"
+      - "D:/Program Files/yy/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Program Files/yy/Git/cmd/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Programme/Cmake/bin/"
+      - "C:/Users/gyf/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program Files/yy/Microsoft VS Code/bin/"
+      - "D:/msys64/ucrt64/bin/"
+    searched_directories:
+      - "D:/VS production/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
+    found: "D:/VS production/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Program Files\\yy\\Scripts\\"
+        - "D:\\Program Files\\yy\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Program Files\\yy\\Git\\cmd"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Programme\\Cmake\\bin"
+        - "C:\\Users\\gyf\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Program Files\\yy\\Microsoft VS Code\\bin"
+        - "D:\\msys64\\ucrt64\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "D:/VS production/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "D:/Program Files/yy/Scripts/"
+      - "D:/Program Files/yy/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Program Files/yy/Git/cmd/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Programme/Cmake/bin/"
+      - "C:/Users/gyf/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program Files/yy/Microsoft VS Code/bin/"
+      - "D:/msys64/ucrt64/bin/"
+    searched_directories:
+      - "D:/VS production/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
+      - "D:/VS production/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
+      - "D:/VS production/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link"
+      - "D:/Program Files/yy/Scripts/lld-link.com"
+      - "D:/Program Files/yy/Scripts/lld-link.exe"
+      - "D:/Program Files/yy/Scripts/lld-link"
+      - "D:/Program Files/yy/lld-link.com"
+      - "D:/Program Files/yy/lld-link.exe"
+      - "D:/Program Files/yy/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "D:/Program Files/yy/Git/cmd/lld-link.com"
+      - "D:/Program Files/yy/Git/cmd/lld-link.exe"
+      - "D:/Program Files/yy/Git/cmd/lld-link"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "D:/Programme/Cmake/bin/lld-link.com"
+      - "D:/Programme/Cmake/bin/lld-link.exe"
+      - "D:/Programme/Cmake/bin/lld-link"
+      - "C:/Users/gyf/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/gyf/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/gyf/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "D:/Program Files/yy/Microsoft VS Code/bin/lld-link.com"
+      - "D:/Program Files/yy/Microsoft VS Code/bin/lld-link.exe"
+      - "D:/Program Files/yy/Microsoft VS Code/bin/lld-link"
+      - "D:/msys64/ucrt64/bin/lld-link.com"
+      - "D:/msys64/ucrt64/bin/lld-link.exe"
+      - "D:/msys64/ucrt64/bin/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "D:\\Program Files\\yy\\Scripts\\"
+        - "D:\\Program Files\\yy\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Program Files\\yy\\Git\\cmd"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Programme\\Cmake\\bin"
+        - "C:\\Users\\gyf\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Program Files\\yy\\Microsoft VS Code\\bin"
+        - "D:\\msys64\\ucrt64\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "D:/VS production/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "D:/Program Files/yy/Scripts/"
+      - "D:/Program Files/yy/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Program Files/yy/Git/cmd/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Programme/Cmake/bin/"
+      - "C:/Users/gyf/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program Files/yy/Microsoft VS Code/bin/"
+      - "D:/msys64/ucrt64/bin/"
+    searched_directories:
+      - "D:/VS production/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
+    found: "D:/VS production/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Program Files\\yy\\Scripts\\"
+        - "D:\\Program Files\\yy\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Program Files\\yy\\Git\\cmd"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Programme\\Cmake\\bin"
+        - "C:\\Users\\gyf\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Program Files\\yy\\Microsoft VS Code\\bin"
+        - "D:\\msys64\\ucrt64\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "D:/VS production/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "D:/Program Files/yy/Scripts/"
+      - "D:/Program Files/yy/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Program Files/yy/Git/cmd/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Programme/Cmake/bin/"
+      - "C:/Users/gyf/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program Files/yy/Microsoft VS Code/bin/"
+      - "D:/msys64/ucrt64/bin/"
+    searched_directories:
+      - "D:/VS production/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.com"
+      - "D:/VS production/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.exe"
+      - "D:/VS production/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt"
+      - "D:/Program Files/yy/Scripts/mt.com"
+      - "D:/Program Files/yy/Scripts/mt.exe"
+      - "D:/Program Files/yy/Scripts/mt"
+      - "D:/Program Files/yy/mt.com"
+      - "D:/Program Files/yy/mt.exe"
+      - "D:/Program Files/yy/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/mt.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/mt.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "D:/Program Files/yy/Git/cmd/mt.com"
+      - "D:/Program Files/yy/Git/cmd/mt.exe"
+      - "D:/Program Files/yy/Git/cmd/mt"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "D:/Programme/Cmake/bin/mt.com"
+      - "D:/Programme/Cmake/bin/mt.exe"
+      - "D:/Programme/Cmake/bin/mt"
+      - "C:/Users/gyf/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/gyf/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/gyf/AppData/Local/Microsoft/WindowsApps/mt"
+      - "D:/Program Files/yy/Microsoft VS Code/bin/mt.com"
+      - "D:/Program Files/yy/Microsoft VS Code/bin/mt.exe"
+      - "D:/Program Files/yy/Microsoft VS Code/bin/mt"
+      - "D:/msys64/ucrt64/bin/mt.com"
+      - "D:/msys64/ucrt64/bin/mt.exe"
+      - "D:/msys64/ucrt64/bin/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "D:\\Program Files\\yy\\Scripts\\"
+        - "D:\\Program Files\\yy\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Program Files\\yy\\Git\\cmd"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Programme\\Cmake\\bin"
+        - "C:\\Users\\gyf\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Program Files\\yy\\Microsoft VS Code\\bin"
+        - "D:\\msys64\\ucrt64\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "D:/VS production/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "D:/Program Files/yy/Scripts/"
+      - "D:/Program Files/yy/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Program Files/yy/Git/cmd/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Programme/Cmake/bin/"
+      - "C:/Users/gyf/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program Files/yy/Microsoft VS Code/bin/"
+      - "D:/msys64/ucrt64/bin/"
+    searched_directories:
+      - "D:/VS production/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.com"
+    found: "D:/VS production/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Program Files\\yy\\Scripts\\"
+        - "D:\\Program Files\\yy\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Program Files\\yy\\Git\\cmd"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Programme\\Cmake\\bin"
+        - "C:\\Users\\gyf\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Program Files\\yy\\Microsoft VS Code\\bin"
+        - "D:\\msys64\\ucrt64\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/"
+    found: "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Program Files\\yy\\Scripts\\"
+        - "D:\\Program Files\\yy\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Program Files\\yy\\Git\\cmd"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Programme\\Cmake\\bin"
+        - "C:\\Users\\gyf\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Program Files\\yy\\Microsoft VS Code\\bin"
+        - "D:\\msys64\\ucrt64\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      适用于 .NET Framework MSBuild 版本 18.1.1-preview-25556-03+4e139ce80
+      生成启动时间为 2025/12/13 23:17:35。
+      
+      节点 1 上的项目“D:\\my-project\\build\\CMakeFiles\\4.2.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+        正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        正在对“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”执行 Touch 任务。
+      ClCompile:
+        D:\\VS production\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        D:\\VS production\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\my-project\\build\\CMakeFiles\\4.2.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\VS production\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“D:\\my-project\\build\\CMakeFiles\\4.2.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:01.06
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/my-project/build/CMakeFiles/4.2.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "D:/VS production/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "D:/Program Files/yy/Scripts/"
+      - "D:/Program Files/yy/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Program Files/yy/Git/cmd/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Programme/Cmake/bin/"
+      - "C:/Users/gyf/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program Files/yy/Microsoft VS Code/bin/"
+      - "D:/msys64/ucrt64/bin/"
+    searched_directories:
+      - "D:/VS production/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
+      - "D:/VS production/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
+      - "D:/VS production/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link"
+      - "D:/Program Files/yy/Scripts/lld-link.com"
+      - "D:/Program Files/yy/Scripts/lld-link.exe"
+      - "D:/Program Files/yy/Scripts/lld-link"
+      - "D:/Program Files/yy/lld-link.com"
+      - "D:/Program Files/yy/lld-link.exe"
+      - "D:/Program Files/yy/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "D:/Program Files/yy/Git/cmd/lld-link.com"
+      - "D:/Program Files/yy/Git/cmd/lld-link.exe"
+      - "D:/Program Files/yy/Git/cmd/lld-link"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "D:/Programme/Cmake/bin/lld-link.com"
+      - "D:/Programme/Cmake/bin/lld-link.exe"
+      - "D:/Programme/Cmake/bin/lld-link"
+      - "C:/Users/gyf/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/gyf/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/gyf/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "D:/Program Files/yy/Microsoft VS Code/bin/lld-link.com"
+      - "D:/Program Files/yy/Microsoft VS Code/bin/lld-link.exe"
+      - "D:/Program Files/yy/Microsoft VS Code/bin/lld-link"
+      - "D:/msys64/ucrt64/bin/lld-link.com"
+      - "D:/msys64/ucrt64/bin/lld-link.exe"
+      - "D:/msys64/ucrt64/bin/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "D:\\Program Files\\yy\\Scripts\\"
+        - "D:\\Program Files\\yy\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Program Files\\yy\\Git\\cmd"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Programme\\Cmake\\bin"
+        - "C:\\Users\\gyf\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Program Files\\yy\\Microsoft VS Code\\bin"
+        - "D:\\msys64\\ucrt64\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:580 (enable_language)"
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:553 (__windows_compiler_msvc_enable_rc)"
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "D:/Program Files/yy/Scripts/"
+      - "D:/Program Files/yy/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Program Files/yy/Git/cmd/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Programme/Cmake/bin/"
+      - "C:/Users/gyf/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Program Files/yy/Microsoft VS Code/bin/"
+      - "D:/msys64/ucrt64/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "D:/Programme/Cmake/bin/"
+      - "D:/Programme/Cmake/sbin/"
+      - "D:/Programme/Cmake/"
+      - "C:/Program Files (x86)/my-project/bin/"
+      - "C:/Program Files (x86)/my-project/sbin/"
+      - "C:/Program Files (x86)/my-project/"
+    searched_directories:
+      - "D:/Program Files/yy/Scripts/rc.com"
+      - "D:/Program Files/yy/Scripts/rc.exe"
+      - "D:/Program Files/yy/Scripts/rc"
+      - "D:/Program Files/yy/rc.com"
+      - "D:/Program Files/yy/rc.exe"
+      - "D:/Program Files/yy/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/rc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/rc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "D:/Program Files/yy/Git/cmd/rc.com"
+      - "D:/Program Files/yy/Git/cmd/rc.exe"
+      - "D:/Program Files/yy/Git/cmd/rc"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "D:/Programme/Cmake/bin/rc.com"
+      - "D:/Programme/Cmake/bin/rc.exe"
+      - "D:/Programme/Cmake/bin/rc"
+      - "C:/Users/gyf/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/gyf/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/gyf/AppData/Local/Microsoft/WindowsApps/rc"
+      - "D:/Program Files/yy/Microsoft VS Code/bin/rc.com"
+      - "D:/Program Files/yy/Microsoft VS Code/bin/rc.exe"
+      - "D:/Program Files/yy/Microsoft VS Code/bin/rc"
+      - "D:/msys64/ucrt64/bin/rc.com"
+      - "D:/msys64/ucrt64/bin/rc.exe"
+      - "D:/msys64/ucrt64/bin/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "D:/Programme/Cmake/bin/rc.com"
+      - "D:/Programme/Cmake/bin/rc.exe"
+      - "D:/Programme/Cmake/bin/rc"
+      - "D:/Programme/Cmake/sbin/rc.com"
+      - "D:/Programme/Cmake/sbin/rc.exe"
+      - "D:/Programme/Cmake/sbin/rc"
+      - "D:/Programme/Cmake/rc.com"
+      - "D:/Programme/Cmake/rc.exe"
+      - "D:/Programme/Cmake/rc"
+      - "C:/Program Files (x86)/my-project/bin/rc.com"
+      - "C:/Program Files (x86)/my-project/bin/rc.exe"
+      - "C:/Program Files (x86)/my-project/bin/rc"
+      - "C:/Program Files (x86)/my-project/sbin/rc.com"
+      - "C:/Program Files (x86)/my-project/sbin/rc.exe"
+      - "C:/Program Files (x86)/my-project/sbin/rc"
+      - "C:/Program Files (x86)/my-project/rc.com"
+      - "C:/Program Files (x86)/my-project/rc.exe"
+      - "C:/Program Files (x86)/my-project/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "D:\\Program Files\\yy\\Scripts\\"
+        - "D:\\Program Files\\yy\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Program Files\\yy\\Git\\cmd"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Programme\\Cmake\\bin"
+        - "C:\\Users\\gyf\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Program Files\\yy\\Microsoft VS Code\\bin"
+        - "D:\\msys64\\ucrt64\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/my-project"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/Programme/Cmake"
+        - "C:/Program Files (x86)/my-project"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/my-project/build/CMakeFiles/CMakeScratch/TryCompile-4jjz4u"
+      binary: "D:/my-project/build/CMakeFiles/CMakeScratch/TryCompile-4jjz4u"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/my-project/build/CMakeFiles/CMakeScratch/TryCompile-4jjz4u'
+        
+        Run Build Command(s): "D:/VS production/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a2795.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        适用于 .NET Framework MSBuild 版本 18.1.1-preview-25556-03+4e139ce80
+        生成启动时间为 2025/12/13 23:17:36。
+        
+        节点 1 上的项目“D:\\my-project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4jjz4u\\cmTC_a2795.vcxproj”(默认目标)。
+        PrepareForBuild:
+          已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+          正在创建目录“D:\\my-project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4jjz4u\\Debug\\”。
+          正在创建目录“cmTC_a2795.dir\\Debug\\cmTC_a2795.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_a2795.dir\\Debug\\cmTC_a2795.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_a2795.dir\\Debug\\cmTC_a2795.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          D:\\VS production\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_a2795.dir\\Debug\\\\" /Fd"cmTC_a2795.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "D:\\Programme\\Cmake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.50.35719 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_a2795.dir\\Debug\\\\" /Fd"cmTC_a2795.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "D:\\Programme\\Cmake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          D:\\VS production\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\my-project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4jjz4u\\Debug\\cmTC_a2795.exe" /INCREMENTAL /ILK:"cmTC_a2795.dir\\Debug\\cmTC_a2795.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/my-project/build/CMakeFiles/CMakeScratch/TryCompile-4jjz4u/Debug/cmTC_a2795.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/my-project/build/CMakeFiles/CMakeScratch/TryCompile-4jjz4u/Debug/cmTC_a2795.lib" /MACHINE:X64  /machine:x64 cmTC_a2795.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_a2795.vcxproj -> D:\\my-project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4jjz4u\\Debug\\cmTC_a2795.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_a2795.dir\\Debug\\cmTC_a2795.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_a2795.dir\\Debug\\cmTC_a2795.tlog\\cmTC_a2795.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\my-project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4jjz4u\\cmTC_a2795.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.02
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': D:/VS production/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "D:/VS production/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.50.35719.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/my-project/build/CMakeFiles/CMakeScratch/TryCompile-pwkwcd"
+      binary: "D:/my-project/build/CMakeFiles/CMakeScratch/TryCompile-pwkwcd"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/my-project/build/CMakeFiles/CMakeScratch/TryCompile-pwkwcd'
+        
+        Run Build Command(s): "D:/VS production/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_80e7c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        适用于 .NET Framework MSBuild 版本 18.1.1-preview-25556-03+4e139ce80
+        生成启动时间为 2025/12/13 23:17:38。
+        
+        节点 1 上的项目“D:\\my-project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pwkwcd\\cmTC_80e7c.vcxproj”(默认目标)。
+        PrepareForBuild:
+          已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+          正在创建目录“D:\\my-project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pwkwcd\\Debug\\”。
+          正在创建目录“cmTC_80e7c.dir\\Debug\\cmTC_80e7c.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_80e7c.dir\\Debug\\cmTC_80e7c.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_80e7c.dir\\Debug\\cmTC_80e7c.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          D:\\VS production\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_80e7c.dir\\Debug\\\\" /Fd"cmTC_80e7c.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "D:\\Programme\\Cmake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.50.35719 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_80e7c.dir\\Debug\\\\" /Fd"cmTC_80e7c.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "D:\\Programme\\Cmake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          D:\\VS production\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\my-project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pwkwcd\\Debug\\cmTC_80e7c.exe" /INCREMENTAL /ILK:"cmTC_80e7c.dir\\Debug\\cmTC_80e7c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/my-project/build/CMakeFiles/CMakeScratch/TryCompile-pwkwcd/Debug/cmTC_80e7c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/my-project/build/CMakeFiles/CMakeScratch/TryCompile-pwkwcd/Debug/cmTC_80e7c.lib" /MACHINE:X64  /machine:x64 cmTC_80e7c.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_80e7c.vcxproj -> D:\\my-project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pwkwcd\\Debug\\cmTC_80e7c.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_80e7c.dir\\Debug\\cmTC_80e7c.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_80e7c.dir\\Debug\\cmTC_80e7c.tlog\\cmTC_80e7c.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\my-project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pwkwcd\\cmTC_80e7c.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.01
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': D:/VS production/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/Programme/Cmake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "D:/VS production/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.50.35719.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...

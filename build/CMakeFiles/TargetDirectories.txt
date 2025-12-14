@@ -1,0 +1,4 @@
+D:/my-project/build/CMakeFiles/core.dir
+D:/my-project/build/CMakeFiles/my-project.dir
+D:/my-project/build/CMakeFiles/ALL_BUILD.dir
+D:/my-project/build/CMakeFiles/ZERO_CHECK.dir
